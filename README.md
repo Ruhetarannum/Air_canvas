@@ -23,13 +23,13 @@ pip install -r requirements.txt
 ```
 
 ## 🚀 How to Run
-1.Ensure your webcam is connected.
+<p>1.Ensure your webcam is connected.<br>
 2.Run the Python script:
 ```
 python air_canvas.py
-```
-3.Allow access to your webcam if prompted.
-4.Use gestures to draw and interact!
+```<br>
+3.Allow access to your webcam if prompted.<br>
+4.Use gestures to draw and interact!</p>
 
 ## ✋ Gesture Controls
 Gesture	Action
