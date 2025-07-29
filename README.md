@@ -64,9 +64,9 @@ emphasizing teamwork and creativity in applying computer vision concepts.<br>
 
 This project was developed as a group effort by the following team members:
 
-- @Ruhetarannum  
-- [@sadiyatahseen555] (https://github.com/sadiyatahseen555)  
-- @teammate2  
+- @Ruhetarannum (https://github.com/Ruhetarannum)
+- @sadiyatahseen555 (https://github.com/sadiyatahseen555)  
+- @AmreenNeema (https://github.com/AmreenNeema)
 - @teammate3  
 
 MediaPipe by Google<br>
