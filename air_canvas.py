@@ -22,8 +22,8 @@ class AirCanvas:
         self.eraser_thickness = 50
         
         # Colors
-        self.colors = [(255, 0, 0), (0, 255, 0), (0, 0, 255), (0, 255, 255), (255, 0, 255)]
-        self.color_names = ['BLUE', 'GREEN', 'RED', 'YELLOW', 'MAGENTA']
+        self.colors = [(255, 0, 0), (0, 255, 0), (0, 0, 255), (0, 255, 255) ]
+        self.color_names = ['BLUE', 'GREEN', 'RED', 'YELLOW']
         self.current_color = (255, 0, 0)  # Default blue
         
         # Canvas
@@ -39,7 +39,7 @@ class AirCanvas:
         
         # Color point arrays
         self.color_points = [self.blue_points, self.green_points, self.red_points, 
-                           self.yellow_points, self.magenta_points]
+                           self.yellow_points]
         self.color_index = 0
         
     def setup_ui(self, frame):
@@ -49,7 +49,7 @@ class AirCanvas:
         frame = cv2.rectangle(frame, (275, 1), (370, 65), self.colors[1], -1)
         frame = cv2.rectangle(frame, (390, 1), (485, 65), self.colors[2], -1)
         frame = cv2.rectangle(frame, (505, 1), (600, 65), self.colors[3], -1)
-        frame = cv2.rectangle(frame, (620, 1), (715, 65), self.colors[4], -1)
+        
         
         # Labels
         cv2.putText(frame, "CLEAR", (49, 33), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2, cv2.LINE_AA)
@@ -57,7 +57,7 @@ class AirCanvas:
         cv2.putText(frame, "GREEN", (298, 33), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2, cv2.LINE_AA)
         cv2.putText(frame, "RED", (420, 33), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2, cv2.LINE_AA)
         cv2.putText(frame, "YELLOW", (520, 33), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2, cv2.LINE_AA)
-        cv2.putText(frame, "MAGENTA", (640, 33), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2, cv2.LINE_AA)
+        
         
         return frame
     
@@ -127,9 +127,7 @@ class AirCanvas:
             elif 505 <= x <= 600:  # Yellow
                 self.color_index = 3
                 self.current_color = self.colors[3]
-            elif 620 <= x <= 715:  # Magenta
-                self.color_index = 4
-                self.current_color = self.colors[4]
+            
     
     def clear_canvas(self):
         """Clear the canvas and all drawing points"""
@@ -140,9 +138,9 @@ class AirCanvas:
         self.green_points = [deque(maxlen=1024)]
         self.red_points = [deque(maxlen=1024)]
         self.yellow_points = [deque(maxlen=1024)]
-        self.magenta_points = [deque(maxlen=1024)]
+        
         self.color_points = [self.blue_points, self.green_points, self.red_points, 
-                           self.yellow_points, self.magenta_points]
+                           self.yellow_points]
     
     def draw_on_canvas(self, frame):
         """Draw all the stored points on the frame"""
