@@ -25,9 +25,7 @@ pip install -r requirements.txt
 ## 🚀 How to Run
 <p>1.Ensure your webcam is connected.<br>
 2.Run the Python script:
-```
-python air_canvas.py
-```
+python air_canvas.py<br>
 3.Allow access to your webcam if prompted.<br>
 4.Use gestures to draw and interact!</p>
 
@@ -52,13 +50,17 @@ requirements.txt — List of Python dependencies<br>
 README.md — This documentation</p>
 
 ## ❗ Troubleshooting
-<p>Make sure your webcam is properly connected.<br>
-Run the app in a well-lit environment for better gesture detection.<br>
-If you encounter errors, try updating opencv-python or mediapipe.</p>
+<p>-Make sure your webcam is properly connected.<br>
+-Run the app in a well-lit environment for better gesture detection.<br>
+-If you encounter errors, try updating opencv-python or mediapipe.</p>
 
 # 📜 License
 This project is free to use for personal, educational, and non-commercial purposes.
 
 # 🙏 Acknowledgements
-<p>MediaPipe by Google<br>
+<p>Air Canvas is a group project created by a team of undergraduate students as part of our coursework,
+emphasizing teamwork and creativity in applying computer vision concepts.<br>
+-@Ruhetarannum
+-@sadiyatahseen555
+MediaPipe by Google<br>
 OpenCV</p>
