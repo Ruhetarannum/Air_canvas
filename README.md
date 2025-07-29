@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ## 🚀 How to Run
 <p>1.Ensure your webcam is connected.<br>
-2.Run the Python script:
+2.Run the Python script:<br>
 ```
 python air_canvas.py
 ```<br>
@@ -32,33 +32,33 @@ python air_canvas.py
 4.Use gestures to draw and interact!</p>
 
 ## ✋ Gesture Controls
-Gesture	Action
-☝️ Index finger up	                  Start drawing
-✌️ Index + Middle fingers up	        Select color / Clear
-✋ Hover over "CLEAR" box	            Clear the canvas
-👉 Hover over a color box	            Change brush color
-⌨️ Press q key	                      Quit the application
+<p>Gesture	Action<br>
+☝️ Index finger up	                  Start drawing<br>
+✌️ Index + Middle fingers up	        Select color / Clear<br>
+✋ Hover over "CLEAR" box	            Clear the canvas<br>
+👉 Hover over a color box	            Change brush color<br>
+⌨️ Press q key	                      Quit the application</p>
 
 ## 🎨 Color Palette
-The top bar displays these color options:
-🔵 BLUE
-🟢 GREEN
-🔴 RED
-🟡 YELLOW
+<p>The top bar displays these color options:<br>
+🔵 BLUE<br>
+🟢 GREEN<br>
+🔴 RED<br>
+🟡 YELLOW</p>
 
 ## 📁 File Structure
-air_canvas.py — Main Python script
-requirements.txt — List of Python dependencies
-README.md — This documentation
+<p>air_canvas.py — Main Python script<br>
+requirements.txt — List of Python dependencies<br>
+README.md — This documentation</p>
 
 ## ❗ Troubleshooting
-Make sure your webcam is properly connected.
-Run the app in a well-lit environment for better gesture detection.
-If you encounter errors, try updating opencv-python or mediapipe.
+<p>Make sure your webcam is properly connected.<br>
+Run the app in a well-lit environment for better gesture detection.<br>
+If you encounter errors, try updating opencv-python or mediapipe.</p>
 
 # 📜 License
 This project is free to use for personal, educational, and non-commercial purposes.
 
 # 🙏 Acknowledgements
-MediaPipe by Google
-OpenCV
+<p>MediaPipe by Google<br>
+OpenCV</p>
