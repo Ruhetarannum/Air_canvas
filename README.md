@@ -24,20 +24,20 @@ pip install -r requirements.txt
 
 ## 🚀 How to Run
 <p>1.Ensure your webcam is connected.<br>
-2.Run the Python script:<br>
+2.Run the Python script:
 ```
 python air_canvas.py
-```<br>
+```
 3.Allow access to your webcam if prompted.<br>
 4.Use gestures to draw and interact!</p>
 
 ## ✋ Gesture Controls
 <p>Gesture	Action<br>
-☝️ Index finger up	                  Start drawing<br>
-✌️ Index + Middle fingers up	        Select color / Clear<br>
-✋ Hover over "CLEAR" box	            Clear the canvas<br>
-👉 Hover over a color box	            Change brush color<br>
-⌨️ Press q key	                      Quit the application</p>
+☝️ Index finger up---	>Start drawing<br>
+✌️ Index + Middle fingers up---	>Select color / Clear<br>
+✋ Hover over "CLEAR" box--- >Clear the canvas<br>
+👉 Hover over a color box	--- >Change brush color<br>
+⌨️ Press q key---> Quit the application</p>
 
 ## 🎨 Color Palette
 <p>The top bar displays these color options:<br>
